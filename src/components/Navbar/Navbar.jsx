@@ -5,6 +5,7 @@ import Home from '../../pages/Home/Home'
 import Search from '../../pages/Search/Search'
 import MyRecipes from '../../pages/MyRecipes/MyRecipes'
 import logo from '../../assets/foody.png';
+import Question from '../../pages/Question/Question'
 
 function Navbar() {
   return (
@@ -13,6 +14,7 @@ function Navbar() {
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/myrecipes" element={<MyRecipes />} />
+        <Route path="/question" element={<Question />} />
     </Routes>
     <header className='navbar'>
         <img src={logo} alt="Logo" />
